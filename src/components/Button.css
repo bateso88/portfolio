@@ -1,5 +1,5 @@
 :root {
-  --primary: #fff;
+  --primary: rgb(255, 255, 255);
 }
 
 
@@ -35,7 +35,8 @@
   font-size: 20px;
 }
 
-.btn--medium:hover, .btn--large:hover {
+.btn--medium:hover, 
+.btn--large:hover {
   background: #fff;
   color: #242424;
   transition: 250ms;
