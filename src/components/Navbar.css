@@ -14,7 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px; 
+  height: 80px;
+  max-width: 1500px;
 }
 
 .navbar-logo {
@@ -39,7 +40,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -74,7 +75,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
   .NavbarItems {
     position: relative;
   }
