@@ -29,8 +29,8 @@
   align-items: center;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
+.fa-home {
+  margin-right: 0.5rem;
   font-size: 1.8rem;
 }
 
@@ -117,7 +117,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(-7%, 45%);
   }
 
   .menu-icon {
