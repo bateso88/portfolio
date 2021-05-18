@@ -16,8 +16,7 @@
 }
 
 .about {
-  /* background-image: url('/images/img-1.jpg'); */
-  background-color: black;
+  background-image: url("./images/IMG_0402.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,10 +25,9 @@
 }
 
 .projects {
-  /* background-image: url('/images/img-1.jpg'); */
-  background-color: black;
+  background-image: url("./images/IMG_2289.jpeg");
   background-position: center;
-  background-size: fill;
+  background-size:cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
