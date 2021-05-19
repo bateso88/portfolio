@@ -32,3 +32,12 @@
   color: #fff;
   font-size: 100px;
 }
+
+.projects {
+  background-image: url("./images/IMG_2289.jpeg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
