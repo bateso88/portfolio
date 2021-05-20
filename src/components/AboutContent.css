@@ -1,0 +1,65 @@
+.about-content {
+  padding: 1rem;
+  background: #fff;
+}
+
+.about-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.about-items {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.about-photo {
+  background-image: url("../images/IMG_2539.jpeg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 2px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 3px 10px rgba(56, 125, 255, 0.017));
+}
+
+.about-text {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 1rem;
+  border-radius: 2px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 3px 10px rgba(56, 125, 255, 0.017));
+  text-align: justify;
+  font-size: 1.05rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-text {
+    margin-bottom: 2em;
+  }
+}
+

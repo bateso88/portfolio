@@ -95,6 +95,7 @@ h1 {
 }
 
 .cards__item__text {
+  text-align: justify;
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
