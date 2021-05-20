@@ -62,8 +62,8 @@
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 400px) {
   .image {
-    width: 40vh;
+    width: 35vh;
   }
 }
