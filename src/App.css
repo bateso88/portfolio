@@ -26,12 +26,13 @@
 }
 
 .projects {
-  background-image: url("./images/IMG_2289.jpeg");
-  background-position: center;
+  background-image: url("./images/IMG_0959.jpeg");
+  background-position: 0 -30vh;
   background-size:cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: 95vh;
 }
 
 .vantrip {
