@@ -1,6 +1,6 @@
 export const SliderData = [
   {
-    image: "images/IMG_0215.jpeg"
+    image: "http://s3.amazonaws.com/storage-for-portfolio-images/IMG_0215.jpeg"
   },
   {
     image: "images/IMG_0263.jpeg"

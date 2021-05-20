@@ -36,7 +36,7 @@ function AboutContent() {
               <p>
                 I recently bought and converted a Ford Transit and did a European 
                 road trip in 2020, for as long as the situation permitted. I now 
-                plan to take it on weekends away as much as possible!
+                plan to take it on as many weekends away as possible!
               </p>
             </div>
             <div className="about-photo"></div>
