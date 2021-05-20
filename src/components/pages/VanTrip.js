@@ -7,7 +7,8 @@ import { SliderData } from '../SliderData'
 function VanTrip () {
   return (
     <>
-      <h1 className='vantrip'>PHOTOS</h1> 
+      <h1 className='vantrip'>VAN TRIP</h1>
+      <h5 className='vantrip-photos-title'>PHOTOS</h5>
       <ImageSlider slides={ SliderData }/>
     </>
   )

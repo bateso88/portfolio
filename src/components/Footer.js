@@ -9,15 +9,16 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              <i className='fas fa-home' />
-            </Link>
+            <Link to="/" className="social-logo">Home</Link>
           </div>
           <div className="footer-logo">
             <Link className="social-logo" to='./about'>About</Link>
           </div>
           <div className="footer-logo">
             <Link className="social-logo" to='./projects'>Projects</Link>
+          </div>
+          <div className="footer-logo">
+            <Link className="social-logo" to='./vantrip'>Van Trip</Link>
           </div>
           <div className="social-icons">
             <ExternalLink 

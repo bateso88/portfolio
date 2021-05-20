@@ -7,6 +7,7 @@
 
 .home,
 .about,
+.vantrip,
 .projects {
   display: flex;
   height: 90vh;
@@ -33,7 +34,18 @@
   font-size: 100px;
 }
 
-.photos {
-  color: rgb(3, 0, 0);
-  font-size: 50px;
+.vantrip {
+  background-image: url("./images/IMG_1950.jpeg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 120vh;
+}
+
+.vantrip-photos-title {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  text-align: center;
 }

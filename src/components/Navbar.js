@@ -33,6 +33,11 @@ function Navbar() {
               Projects
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link to='/vantrip' className='nav-links' onClick={closeMobileMenu}>
+              Van Trip
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
