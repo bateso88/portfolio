@@ -1,0 +1,19 @@
+.dot {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+
+.dot.active {
+  background: black;
+}
+
+.dots {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}

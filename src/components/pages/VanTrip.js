@@ -4,13 +4,13 @@ import ImageSlider from '../ImageSlider';
 import { SliderData } from '../SliderData'
 
 
-function Photos () {
+function VanTrip () {
   return (
     <>
-      <h1 className='photos'>PHOTOS</h1> 
+      <h1 className='vantrip'>PHOTOS</h1> 
       <ImageSlider slides={ SliderData }/>
     </>
   )
 }
 
-export default Photos;
+export default VanTrip;
