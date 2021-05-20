@@ -51,7 +51,7 @@ function Cards() {
             />
             <CardItem 
               src="images/img-1.jpg"
-              text="Bowling Scorecard - Some complex logic and Ajax requests"
+              text="Bowling Scorecard - Some complex logic and Ajax requests."
               label="Javascript, HTML/CSS"
               path="/"
             />
