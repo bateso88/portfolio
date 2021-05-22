@@ -16,7 +16,7 @@ function Cards() {
               path="https://github.com/bateso88/Guilt_Trip"
             />
             <CardItem 
-              src="images/img-1.jpg"
+              src="http://s3.amazonaws.com/mywebsitebucketoliverbates/IMG_0215.jpeg"
               text="Hatch - A complex web app for a budding property company."
               label="Rails, JavaScript, Heroku"
               path="https://github.com/bateso88/Hatch"
