@@ -1,8 +1,6 @@
-import image from '../public/IMG_0215.jpeg'
-
 export const SliderData = [
   {
-    image: "http://s3.amazonaws.com/mywebsitebucketoliverbates/IMG_0215.jpeg"
+    image: "https://oliverbateswebsite.s3.amazonaws.com/IMG_0215.jpeg"
   },
   {
     image: "images/IMG_0263.jpeg"
