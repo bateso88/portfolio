@@ -50,3 +50,12 @@
   font-size: 70px;
   text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+  .home,
+  .about,
+  .vantrip,
+  .projects  {
+    font-size: 70px;
+  }
+}
