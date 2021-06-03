@@ -17,10 +17,6 @@ const ImageSlider = ({ slides }) => {
     setCurrent(current === 0 ? length -1 : current - 1)
   };
 
-  const clickSlide = (number) => {
-    setCurrent(number)
-  };
-
   if(!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
@@ -35,10 +31,9 @@ const ImageSlider = ({ slides }) => {
               <img src={slide.image} alt="image" className="image"/>
             )}
           </div>
-
-          
         );
       })}
+
       <span className="prev" onClick={prevSlide}>&#10094;</span>
       <span className="next" onClick={nextSlide}>&#10095;</span>
     </section>
