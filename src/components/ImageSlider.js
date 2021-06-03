@@ -28,7 +28,6 @@ const ImageSlider = ({ slides }) => {
   return (
     <section className="slider">
       <Dots className="dots" slides={slides} activeSlide={current} />
-      {/* <div className="numbertext">{current + 1}/{length}</div> */}
       {SliderData.map((slide, index) => {
         return (
           <div className={index === current ? "slide active" : "slide"} key={index}>

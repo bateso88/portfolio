@@ -8,7 +8,7 @@
 
 .image {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 85vh;
 }
 
 .slide {
@@ -20,7 +20,6 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.00);
-  max-width: 100%;
 }
 
 .prev, .next {
@@ -38,7 +37,6 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -48,15 +46,11 @@
   left: 0;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 @media screen and (min-width: 750px) {
-  .image {
-    width: 120vh;
-  }
   .prev, .next {
     color:black;
   }
