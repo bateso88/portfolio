@@ -11,7 +11,7 @@
 
 .dots {
   position: absolute;
-  bottom: 5px;
+  bottom: -14px;
   display: flex;
   align-items: center;
   justify-content: center;

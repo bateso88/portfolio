@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { SliderData } from './SliderData'
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import './ImageSlider.css';
 import Dots from './Dots';
 
@@ -28,9 +27,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       <Dots className="dots" slides={slides} activeSlide={current} />
+      {/* <div className="numbertext">{current + 1}/{length}</div> */}
       {SliderData.map((slide, index) => {
         return (
           <div className={index === current ? "slide active" : "slide"} key={index}>
@@ -42,6 +40,8 @@ const ImageSlider = ({ slides }) => {
           
         );
       })}
+      <span className="prev" onClick={prevSlide}>&#10094;</span>
+      <span className="next" onClick={nextSlide}>&#10095;</span>
     </section>
   );
 };
